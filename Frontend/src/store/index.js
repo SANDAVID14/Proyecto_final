@@ -14,7 +14,7 @@ export default new Vuex.Store({
   },
   actions: {
     async registrarUsuario({commit}, payload){
-      const peticion = fetch("https://calculadorapecuaria.herokuapp.com//usuario", {
+      const peticion = fetch("https://calculadorap.herokuapp.com//usuario", {
          method: 'POST', 
          headers: {
            'content-type': 'application/json'
